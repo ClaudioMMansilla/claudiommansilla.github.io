@@ -1,0 +1,192 @@
+/* ------- ESTILOS SECCION 'SOBRE NOSOTROS'  ------- */
+.section-nosotros {
+    padding: 30px 30px;
+    gap: 2rem;
+
+    h2{
+        padding-bottom: 20px;
+        font-family: poppins, sans-serif;
+    }
+}
+
+.container-h2 {
+    padding-bottom: 20px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+}
+
+.div-nosotros {
+    gap: 30px;
+
+    h3 {
+        padding: 30px 30px;
+        font-size: 25px;
+    }
+}
+
+.div-nosotros-detalle {
+    width: 400px;
+
+    .img {
+        background-color: none;
+        width: 100px;
+        height: 100px;
+    }
+
+}
+
+
+
+/* ------- ESTILOS SECCION DE ANUNCIOS  ------- */
+.section-anuncios {
+    padding: 30px 30px;
+    gap: 2rem;
+}
+
+.div-anuncios {
+    display: flex;
+    gap: 1rem;
+}
+
+.card-anuncio {
+    background-color: rgb(247, 243, 243);
+    width: 400px;
+    height: 550px;
+    /* padding: 0.5rem; */
+    /* flex-direction: column; */
+    gap: 1rem;
+}
+
+.btn {
+    height: 2rem;
+    /* width: 16rem; */
+    color: white;
+    background: #e08709;
+}
+
+
+.card-detalle {
+    display: grid;
+    height: 250px;
+    padding: 20px 20px;
+
+    p {
+        display: grid;
+        justify-self: end;
+    }
+
+    b {
+        color: rgb(20, 201, 20);
+    }
+}
+
+.img-anuncio {
+    width: 100%;
+    height: auto;
+}
+
+.card-logos {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 2rem;
+    padding-inline: 50px;
+}
+
+.section-suenios {
+    display: flex;
+    background-image: url(../assets/images/encuentra.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    width: 100%;
+    height: 50vh;
+}
+
+.container-suenios {
+    margin: 100px 50px;
+
+    h2 {
+        padding-bottom: 50px;
+        color: white;
+    }
+
+    p {
+        padding-bottom: 50px;
+        color: white;
+    }
+
+    button {
+        width: 30%;
+    }
+}
+
+
+.section-blog {
+    width: 70%;
+    padding: 50px 30px;
+
+    article{
+        padding: 10px 10px;
+    }
+
+    .card-image img {
+        width: 20vw;
+        height: auto;
+    }
+
+    .card-details {
+        padding: 10px 30px;
+        font-size: 18px;
+
+        .container-h3 h3 {
+            font-size: 20px;
+            padding-bottom: 15px;
+        }
+
+        .container-green-line {
+            width: 40%;
+            height: 5px;
+            background-color: rgb(8, 224, 8);
+        }
+
+        .written-by {
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+
+        .span-written-by{
+            color: #e08709;
+        }
+    }
+
+}
+
+
+.section-commits {
+    width: 30%;
+    height: 50vh;
+    padding: 50px 30px;
+    justify-content: space-around;
+    /* padding: 50px 30px; */
+
+    .container-commit{
+        background-color: rgb(8, 224, 8);
+        border-radius: 5%;
+        padding: 50px;
+    }
+
+    .commit-paragraph{
+        color: white;
+        font-size: 20px;
+        font-family: Cambria, Times, 'Times New Roman', serif;
+    }
+
+    .commit-span{
+        display: flex;
+        color: white;
+        font-size: 22px;
+        padding: 30px 20px;
+        flex-direction: row-reverse;
+    }
+}
