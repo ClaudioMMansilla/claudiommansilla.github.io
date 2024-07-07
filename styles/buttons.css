@@ -1,0 +1,21 @@
+.btn-container {
+    width: 150px;
+    height: auto;
+}
+
+.boton-fixed {
+    position: fixed;
+    bottom: 20px;
+    /* Distancia desde la parte inferior */
+    right: 20px;
+    /* Distancia desde la parte derecha */
+    z-index: 1000;
+    /* Z-index para asegurar que esté por encima de otros elementos */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}

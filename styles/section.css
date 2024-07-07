@@ -1,39 +1,42 @@
-/* ------- ESTILOS SECCION 'SOBRE NOSOTROS'  ------- */
+/* Media query for devices with max-width of 736px (portrait orientation) */
+@media (max-width: 736px) and (orientation: portrait) {
+    .container-suenios {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    body {
+        background-color: #2f8cb1;
+    }
+}
+
+/* Media query for devices with max-width of 800px (landscape orientation) */
+@media (max-width: 800px) and (orientation: landscape) {
+    .container-suenios {
+        flex-direction: row;
+        padding: 20px;
+    }
+
+    .button {
+        width: auto;
+        margin: 10px;
+    }
+}
+
+h2 {
+    padding: 20px 20px;
+}
+
+
 .section-nosotros {
     padding: 30px 30px;
-    gap: 2rem;
-
-    h2{
-        padding-bottom: 20px;
-        font-family: poppins, sans-serif;
-    }
 }
 
-.container-h2 {
-    padding-bottom: 20px;
-    font-size: 12px;
-    font-family: Arial, sans-serif;
-}
-
-.div-nosotros {
-    gap: 30px;
-
-    h3 {
-        padding: 30px 30px;
-        font-size: 25px;
-    }
-}
-
-.div-nosotros-detalle {
-    width: 400px;
-
-    .img {
-        background-color: none;
-        width: 100px;
-        height: 100px;
-    }
-
-}
 
 
 
@@ -51,10 +54,21 @@
 .card-anuncio {
     background-color: rgb(247, 243, 243);
     width: 400px;
-    height: 550px;
+    height: 600px;
     /* padding: 0.5rem; */
     /* flex-direction: column; */
     gap: 1rem;
+}
+
+.card-anuncio:hover {
+    transition: all 0.5s;
+    transform: scale(1.05);
+}
+
+.card-institucional:hover {
+    transition: all 0.5s;
+    transform: scale(1.05);
+    background-color: rgb(243, 236, 236);
 }
 
 .btn {
@@ -100,11 +114,19 @@
     background-position: center center;
     background-size: 100%;
     width: 100%;
-    height: 50vh;
+    height: 65vh;
+}
+
+.section-suenios:hover {
+    opacity: 0.9; 
+}
+
+.boton-fixed:hover {
+    background-color: rgb(10, 207, 10);
 }
 
 .container-suenios {
-    margin: 100px 50px;
+    padding: 25vh 10vh;
 
     h2 {
         padding-bottom: 50px;
@@ -115,10 +137,6 @@
         padding-bottom: 50px;
         color: white;
     }
-
-    button {
-        width: 30%;
-    }
 }
 
 
@@ -126,7 +144,7 @@
     width: 70%;
     padding: 50px 30px;
 
-    article{
+    article {
         padding: 10px 10px;
     }
 
@@ -155,7 +173,7 @@
             padding-bottom: 40px;
         }
 
-        .span-written-by{
+        .span-written-by {
             color: #e08709;
         }
     }
@@ -170,19 +188,19 @@
     justify-content: space-around;
     /* padding: 50px 30px; */
 
-    .container-commit{
+    .container-commit {
         background-color: rgb(8, 224, 8);
         border-radius: 5%;
         padding: 50px;
     }
 
-    .commit-paragraph{
+    .commit-paragraph {
         color: white;
         font-size: 20px;
         font-family: Cambria, Times, 'Times New Roman', serif;
     }
 
-    .commit-span{
+    .commit-span {
         display: flex;
         color: white;
         font-size: 22px;
